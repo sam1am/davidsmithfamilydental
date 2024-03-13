@@ -10,21 +10,7 @@
 </head>
 
 <body class="bg-white">
-    <!-- header.html -->
-    <header class="bg-light-blue shadow-md">
-        <nav class="container mx-auto py-4 flex items-center justify-between">
-            <img src="images/practice/dsfd_logo_small.jpeg" alt="David Smith Family Dental Logo" class="h-12">
-            <ul class="flex space-x-8">
-                <li><a href="index.html" class="text-white hover:text-light-gray">Home</a></li>
-                <li><a href="services.html" class="text-white hover:text-light-gray">Services</a></li>
-                <li><a href="insurance.html" class="text-white hover:text-light-gray">Insurance</a></li>
-                <li><a href="staff.html" class="text-white hover:text-light-gray">Staff</a></li>
-                <li><a href="articles.html" class="text-white hover:text-light-gray">Articles</a></li>
-                <li><a href="contact.html" class="text-white hover:text-light-gray">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
+    {% include 'header.html' %}
     <main>
         <!-- Hero Section -->
         <section class="hero bg-cover bg-center py-16" style="background-image: url('images/practice/office.jpg');">
@@ -56,28 +42,32 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-                    <div class="bg-white p-6 rounded-lg">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
                         <h3 class="text-xl font-bold mb-4 text-light-blue">General Dentistry</h3>
                         <p class="text-gray-700">From routine check-ups to fillings and extractions, we provide a wide
                             range of general dentistry services to keep your smile healthy.</p>
                         <a href="articles/General Dentistry/oral_exams.html"
-                            class="text-light-blue hover:underline">Learn More</a>
+                            class="text-light-blue hover:underline btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded mt-4">Learn
+                            More</a>
                     </div>
-                    <div class="bg-white p-6 rounded-lg">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
                         <h3 class="text-xl font-bold mb-4 text-light-blue">Cosmetic Dentistry</h3>
                         <p class="text-gray-700">Enhance the beauty of your smile with our cosmetic dentistry services,
                             including teeth whitening, veneers, and dental bonding.</p>
                         <a href="articles/Cosmetic Dentistry/whitening.html"
-                            class="text-light-blue hover:underline">Learn More</a>
+                            class="text-light-blue hover:underline btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded mt-4">Learn
+                            More</a>
                     </div>
-                    <div class="bg-white p-6 rounded-lg">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
                         <h3 class="text-xl font-bold mb-4 text-light-blue">Restorative Dentistry</h3>
                         <p class="text-gray-700">We offer restorative treatments such as crowns, bridges, and dental
                             implants to restore the function and appearance of your teeth.</p>
-                        <a href="articles/General Dentistry/crowns.html" class="text-light-blue hover:underline">Learn
+                        <a href="articles/General Dentistry/crowns.html"
+                            class="text-light-blue hover:underline btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded mt-4">Learn
                             More</a>
                     </div>
                 </div>
+
             </div>
         </section>
 

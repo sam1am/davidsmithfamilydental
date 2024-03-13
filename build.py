@@ -17,15 +17,21 @@ def load_markdown_files():
                 if os.path.isfile(file_path) and filename.endswith('.md'):
                     with open(file_path, 'r') as f:
                         content = f.read()
+                        lines = content.split('\n')
+                        title = lines[0].strip('#').strip()
+                        slug = title.replace(' ', '_').lower()
                         creation_time = os.path.getctime(file_path)
                         articles.append({
                             'category': category,
-                            'filename': filename,
-                            'content': markdown.markdown(content),
+                            'title': title,
+                            'slug': slug,
+                            'content': markdown.markdown('\n'.join(lines[1:])),
                             'creation_time': creation_time
                         })
     articles.sort(key=lambda x: x['creation_time'], reverse=True)
     return articles
+
+
 
 def build_website():
     try:
@@ -61,10 +67,12 @@ def build_website():
         # Generate individual article pages
         article_template = env.get_template('article.html')
         for article in articles:
-            filename = f"{article['filename'].replace('.md', '')}.html"
+            slug = article['title'].replace(' ', '_').lower()
+            filename = f"{slug}.html"
             content = article_template.render(article=article)
-            os.makedirs(os.path.join('docs', 'articles', article['category']), exist_ok=True)
-            with open(os.path.join('docs', 'articles', article['category'], filename), 'w') as f:
+            category_path = os.path.join('docs', 'articles', article['category'])
+            os.makedirs(category_path, exist_ok=True)
+            with open(os.path.join(category_path, filename), 'w') as f:
                 f.write(content)
 
         # Copy static assets to the build folder
@@ -84,6 +92,8 @@ def build_website():
         # If an error occurs, restore the old build folder
         if os.path.exists('docs_old'):
             shutil.move('docs_old', 'docs')
+
+
 
 if __name__ == '__main__':
     build_website()

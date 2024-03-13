@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.logo {
+    float:left;
+    margin:5px 10px;
+    max-height:40px;
+}
+
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
@@ -17,7 +23,6 @@ body {
     margin: 0 auto;
     padding: 0 1rem;
 }
-/* ... (previous CSS code remains the same) ... */
 
 /* Headings */
 h2,
@@ -85,9 +90,9 @@ header {
 
 nav ul {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     list-style: none;
-    padding: 1rem 0;
+    padding: 1rem 5px;
 }
 
 nav ul li {
@@ -178,6 +183,80 @@ section h2 {
     width: 80px;
     height: 80px;
     margin-bottom: 1rem;
+}
+
+/* Services Section Image Adjustments */
+.service-img-left,
+.service-img-right {
+    max-width: 400px;
+    /* Control the size of the images */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    /* Center the image */
+}
+
+@media (min-width: 768px) {
+    .service-img-left {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .service-img-right {
+        margin-right: auto;
+        margin-left: 0;
+    }
+}
+
+/* Services Section Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.services-grid>div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .services-grid>div {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.services-grid .content {
+    flex: 1;
+    padding: 1.5rem;
+}
+
+.services-grid .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.services-grid .image-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.services-grid .color-box {
+    height: 200px;
+    border-radius: 0.5rem;
 }
 
 /* About Section */

@@ -11,46 +11,238 @@
 
 <body class="bg-white">
     <!-- header.html -->
-<header class="bg-white shadow-md">
-    <nav class="container mx-auto py-4">
-        <ul class="flex justify-center space-x-8">
-            <li><a href="index.html" class="text-light-blue hover:text-blue-700">Home</a></li>
-            <li><a href="services.html" class="text-light-blue hover:text-blue-700">Services</a></li>
-            <li><a href="insurance.html" class="text-light-blue hover:text-blue-700">Insurance</a></li>
-            <li><a href="staff.html" class="text-light-blue hover:text-blue-700">Staff</a></li>
-            <li><a href="articles.html" class="text-light-blue hover:text-blue-700">Articles</a></li>
-            <li><a href="contact.html" class="text-light-blue hover:text-blue-700">Contact</a></li>
-        </ul>
-    </nav>
+<header class="bg-light-blue shadow-md">
+    <div class="container mx-auto py-4">
+        <div class="flex justify-between items-center">
+            <img src="images/practice/dsfd_logo_small.jpeg" alt="David Smith Family Dental Logo" class="h-12 logo">
+            <nav>
+                <ul class="flex space-x-8">
+                    <li><a href="index.html" class="text-white hover:text-light-gray">Home</a></li>
+                    <li><a href="services.html" class="text-white hover:text-light-gray">Services</a></li>
+                    <li><a href="insurance.html" class="text-white hover:text-light-gray">Insurance</a></li>
+                    <li><a href="staff.html" class="text-white hover:text-light-gray">Staff</a></li>
+                    <li><a href="articles.html" class="text-white hover:text-light-gray">Articles</a></li>
+                    <li><a href="contact.html" class="text-white hover:text-light-gray">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </header>
 
     <main class="container mx-auto py-16">
         <h1 class="text-4xl font-bold text-center mb-8">Our Services</h1>
-        <section class="mb-16">
-            <h2 class="text-3xl font-bold mb-4">General Dentistry</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="bg-light-gray p-6 rounded-lg">
-                    <img src="images/general/dentist-SBI-300908734.jpg" alt="Dentist" class="mb-4 rounded-lg">
-                    <h3 class="text-xl font-bold mb-4">Family & Pediatric Dentistry</h3>
-                    <p class="text-gray-700">We provide comprehensive dental care for patients of all ages, ensuring a
-                        comfortable and positive experience for the entire family.</p>
+    
+        <div class="services-grid">
+            <!-- General Dentistry -->
+            <div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">General Dentistry</h2>
+                    <p class="text-gray-700 mb-4">From routine check-ups to fillings and extractions, we provide a wide
+                        range of general dentistry services to keep your smile healthy.</p>
+                    <a href="articles/General Dentistry/oral_exams.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
                 </div>
-                <div class="bg-light-gray p-6 rounded-lg">
-                    <h3 class="text-xl font-bold mb-4">Cleanings</h3>
-                    <p class="text-gray-700">Regular dental cleanings are essential for maintaining optimal oral health.
-                        Our skilled dental hygienists provide thorough cleanings to remove plaque and tartar buildup.
-                    </p>
+                <div class="image-container">
+                    <img src="images/general/dentist-SBI-300908734.jpg" alt="General Dentistry" class="rounded-lg">
                 </div>
-                <div class="bg-light-gray p-6 rounded-lg">
-                    <h3 class="text-xl font-bold mb-4">Oral Exams</h3>
-                    <p class="text-gray-700">Routine oral exams allow us to detect and address any dental issues early
-                        on, preventing more serious problems from developing.</p>
-                </div>
-                <!-- Add more services -->
             </div>
-        </section>
-        <!-- Add more service categories -->
+    
+            <!-- Cosmetic Dentistry -->
+            <div>
+                <div class="image-container">
+                    <img src="images/general/smile-whitening.jpg" alt="Cosmetic Dentistry" class="rounded-lg">
+                </div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Cosmetic Dentistry</h2>
+                    <p class="text-gray-700 mb-4">Enhance the beauty of your smile with our cosmetic dentistry services,
+                        including teeth whitening, veneers, and dental bonding.</p>
+                    <a href="articles/Cosmetic Dentistry/whitening.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+            </div>
+    
+            <!-- Orthodontics -->
+            <div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Orthodontics</h2>
+                    <p class="text-gray-700 mb-4">Straighten your teeth for a healthier, more attractive smile with our
+                        orthodontic treatments, including braces and clear aligners.</p>
+                    <a href="articles/Orthodontics/braces.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+                <div class="image-container">
+                    <img src="images/work/invisalign_after.png" alt="Orthodontics" class="rounded-lg">
+                </div>
+            </div>
+    
+            <!-- Restorative Dentistry -->
+            <div>
+                <div class="image-container">
+                    <img src="images/general/dental-crown.jpg" alt="Restorative Dentistry" class="rounded-lg">
+                </div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Restorative Dentistry</h2>
+                    <p class="text-gray-700 mb-4">We offer restorative treatments such as crowns, bridges, and dental
+                        implants to restore the function and appearance of your teeth.</p>
+                    <a href="articles/General Dentistry/crowns.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+            </div>
+    
+            <!-- Preventive Care -->
+            <div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Preventive Care</h2>
+                    <p class="text-gray-700 mb-4">Regular dental cleanings and check-ups are essential for maintaining
+                        optimal oral health and preventing future problems.</p>
+                    <a href="articles/General Dentistry/dental_cleanings.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+                <div class="image-container">
+                    <img src="images/general/dental-cleaning.jpg" alt="Preventive Care" class="rounded-lg">
+                </div>
+            </div>
+    
+            <!-- Pediatric Dentistry -->
+            <div>
+                <div class="image-container">
+                    <img src="images/general/pediatric-dentistry.jpg" alt="Pediatric Dentistry" class="rounded-lg">
+                </div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Pediatric Dentistry</h2>
+                    <p class="text-gray-700 mb-4">We provide comprehensive dental care for children, creating a comfortable
+                        and positive experience to establish good oral health habits from an early age.</p>
+                    <a href="articles/General Dentistry/faimly_and_pediatric.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+            </div>
+    
+            <!-- Emergency Dental Care -->
+            <div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Emergency Dental Care</h2>
+                    <p class="text-gray-700 mb-4">In case of a dental emergency, we provide prompt and effective treatment
+                        to alleviate pain and address the issue.</p>
+                </div>
+                <div class="image-container">
+                    <div class="color-box bg-red-500 rounded-lg"></div>
+                </div>
+            </div>
+    
+            <!-- Dental Bridges -->
+            <div>
+                <div class="image-container">
+                    <img src="images/general/dental-bridge.jpg" alt="Dental Bridges" class="rounded-lg">
+                </div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Dental Bridges</h2>
+                    <p class="text-gray-700 mb-4">Dental bridges are a restorative solution for replacing one or more
+                        missing teeth, restoring your smile and bite function.</p>
+                    <a href="articles/General Dentistry/bridges.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+            </div>
+    
+            <!-- Dental Fillings -->
+            <div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Dental Fillings</h2>
+                    <p class="text-gray-700 mb-4">We offer high-quality dental fillings to restore teeth affected by
+                        cavities or decay, preserving their structure and function.</p>
+                    <a href="articles/General Dentistry/fillings.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+                <div class="image-container">
+                    <img src="images/general/dental-filling.jpg" alt="Dental Fillings" class="rounded-lg">
+                </div>
+            </div>
+    
+            <!-- Dental Implants -->
+            <div>
+                <div class="image-container">
+                    <img src="images/general/dental-implant.jpg" alt="Dental Implants" class="rounded-lg">
+                </div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Dental Implants</h2>
+                    <p class="text-gray-700 mb-4">Dental implants are a permanent and natural-looking solution for replacing
+                        missing teeth, restoring your smile and bite function.</p>
+                    <a href="articles/General Dentistry/implants.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+            </div>
+    
+            <!-- Dental X-Rays -->
+            <div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Dental X-Rays</h2>
+                    <p class="text-gray-700 mb-4">Dental x-rays are an essential diagnostic tool that allows us to detect
+                        and monitor potential issues not visible during a regular oral exam.</p>
+                    <a href="articles/General Dentistry/xrays.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+                <div class="image-container">
+                    <div class="color-box bg-gray-400 rounded-lg"></div>
+                </div>
+            </div>
+    
+            <!-- Dental Bonding -->
+            <div>
+                <div class="image-container">
+                    <img src="images/general/dental-bonding.jpg" alt="Dental Bonding" class="rounded-lg">
+                </div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Dental Bonding</h2>
+                    <p class="text-gray-700 mb-4">Dental bonding is a cosmetic procedure that uses a tooth-colored resin to
+                        improve the appearance of chipped, cracked, or discolored teeth.</p>
+                    <a href="articles/Cosmetic Dentistry/bonding.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+            </div>
+    
+            <!-- Dental Veneers -->
+            <div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Dental Veneers</h2>
+                    <p class="text-gray-700 mb-4">Dental veneers are thin, custom-made shells that cover the front surface
+                        of teeth to improve their appearance and enhance your smile.</p>
+                    <a href="articles/Cosmetic Dentistry/veneers.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+                <div class="image-container">
+                    <img src="images/general/dental-veneers.jpg" alt="Dental Veneers" class="rounded-lg">
+                </div>
+            </div>
+    
+            <!-- Clear Correct Aligners -->
+            <div>
+                <div class="image-container">
+                    <img src="images/general/clear-aligners.jpg" alt="Clear Correct Aligners" class="rounded-lg">
+                </div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Clear Correct Aligners</h2>
+                    <p class="text-gray-700 mb-4">Clear Correct aligners are a discreet and comfortable alternative to
+                        traditional braces for straightening teeth and improving your smile.</p>
+                    <a href="articles/Orthodontics/clear_correct.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+            </div>
+    
+            <!-- Specialty Services -->
+            <div>
+                <div class="content bg-light-gray p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Specialty Services</h2>
+                    <p class="text-gray-700 mb-4">In addition to our comprehensive general dentistry services, we offer
+                        specialized treatments for more complex dental needs.</p>
+                    <a href="articles/Speciality Services/genereal_dentistry.html"
+                        class="btn inline-block bg-light-blue text-white font-bold py-2 px-4 rounded">Learn More</a>
+                </div>
+                <div class="image-container">
+                    <div class="color-box bg-purple-500 rounded-lg"></div>
+                </div>
+            </div>
+        </div>
     </main>
+
 
     <!-- footer.html -->
 <footer class="bg-light-gray py-8">
