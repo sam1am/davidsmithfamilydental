@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff | David Smith Family Dental</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    {% include 'header.html' %}
+
+    <main class="container mx-auto py-8">
+        <h1 class="text-3xl font-bold mb-4">Our Staff</h1>
+
+        <!-- Staff Grid -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div class="text-center">
+                <img src="images/staff/dr-david-smith.jpeg" alt="Dr. David Smith" class="staff-img">
+                <h2 class="text-xl font-bold">Dr. David Smith</h2>
+                <p>Dentist</p>
+            </div>
+            <div class="text-center">
+                <img src="images/staff/brianna_allen_assistant.jpeg" alt="Brianna Allen" class="staff-img">
+                <h2 class="text-xl font-bold">Brianna Allen</h2>
+                <p>Assistant</p>
+            </div>
+            <div class="text-center">
+                <img src="images/staff/deborah-williams.jpeg" alt="Deborah Williams" class="staff-img">
+                <h2 class="text-xl font-bold">Deborah Williams</h2>
+                <p>Hygienist</p>
+            </div>
+            <div class="text-center">
+                <img src="images/staff/jeannette_killinger_hygenist.jpeg" alt="Jeannette Killinger" class="staff-img">
+                <h2 class="text-xl font-bold">Jeannette Killinger</h2>
+                <p>Hygienist</p>
+            </div>
+            <div class="text-center">
+                <img src="images/staff/kallie_baker_office_manager.jpeg" alt="Kallie Baker" class="staff-img">
+                <h2 class="text-xl font-bold">Kallie Baker</h2>
+                <p>Office Manager</p>
+            </div>
+            <div class="text-center">
+                <img src="images/staff/keshia_decker_assistant.jpeg" alt="Keshia Decker" class="staff-img">
+                <h2 class="text-xl font-bold">Keshia Decker</h2>
+                <p>Assistant</p>
+            </div>
+        </section>
+
+        <!-- Team Photo -->
+        <section class="text-center">
+            <img src="images/staff/teamphoto.jpeg" alt="Our Team" class="team-photo mx-auto">
+            <p class="mt-4">Our dedicated team at David Smith Family Dental</p>
+        </section>
+
+    </main>
+
+    {% include 'footer.html' %}
+</body>
+
+</html>

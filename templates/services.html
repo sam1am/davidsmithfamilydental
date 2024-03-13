@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | David Smith Family Dental</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="bg-white">
+    {% include 'header.html' %}
+
+    <main class="container mx-auto py-16">
+        <h1 class="text-4xl font-bold text-center mb-8">Our Services</h1>
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">General Dentistry</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-light-gray p-6 rounded-lg">
+                    <img src="images/general/dentist-SBI-300908734.jpg" alt="Dentist" class="mb-4 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Family & Pediatric Dentistry</h3>
+                    <p class="text-gray-700">We provide comprehensive dental care for patients of all ages, ensuring a
+                        comfortable and positive experience for the entire family.</p>
+                </div>
+                <div class="bg-light-gray p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Cleanings</h3>
+                    <p class="text-gray-700">Regular dental cleanings are essential for maintaining optimal oral health.
+                        Our skilled dental hygienists provide thorough cleanings to remove plaque and tartar buildup.
+                    </p>
+                </div>
+                <div class="bg-light-gray p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Oral Exams</h3>
+                    <p class="text-gray-700">Routine oral exams allow us to detect and address any dental issues early
+                        on, preventing more serious problems from developing.</p>
+                </div>
+                <!-- Add more services -->
+            </div>
+        </section>
+        <!-- Add more service categories -->
+    </main>
+
+    {% include 'footer.html' %}
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles | David Smith Family Dental</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    {% include 'header.html' %}
+
+    <main class="container mx-auto py-8">
+        <h1 class="text-3xl font-bold mb-4">Articles</h1>
+        <section id="articles">
+            {% for category, files in articles.items() %}
+            <h2>{{ category }}</h2>
+            {% for filename, content in files.items() %}
+            <h3>{{ filename }}</h3>
+            {{ content|safe }}
+            {% endfor %}
+            {% endfor %}
+        </section>
+    </main>
+
+    {% include 'footer.html' %}
+</body>
+
+</html>
