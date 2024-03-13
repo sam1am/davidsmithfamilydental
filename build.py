@@ -30,8 +30,8 @@ def load_markdown_files():
 def build_website():
     try:
         # rename build/ to build_old/
-        if os.path.exists('build'):
-            shutil.move('build', 'build_old')
+        if os.path.exists('docs'):
+            shutil.move('docs', 'docs_old')
 
         # Create a Jinja2 environment
         env = Environment(loader=FileSystemLoader('templates'))
@@ -51,11 +51,11 @@ def build_website():
         }
 
         # Create the build folder if it doesn't exist
-        os.makedirs('build', exist_ok=True)
+        os.makedirs('docs', exist_ok=True)
 
         # Save the generated HTML files to the build folder
         for filename, content in pages.items():
-            with open(os.path.join('build', filename), 'w') as f:
+            with open(os.path.join('docs', filename), 'w') as f:
                 f.write(content)
 
         # Generate individual article pages
@@ -63,27 +63,27 @@ def build_website():
         for article in articles:
             filename = f"{article['filename'].replace('.md', '')}.html"
             content = article_template.render(article=article)
-            os.makedirs(os.path.join('build', 'articles', article['category']), exist_ok=True)
-            with open(os.path.join('build', 'articles', article['category'], filename), 'w') as f:
+            os.makedirs(os.path.join('docs', 'articles', article['category']), exist_ok=True)
+            with open(os.path.join('docs', 'articles', article['category'], filename), 'w') as f:
                 f.write(content)
 
         # Copy static assets to the build folder
-        shutil.copytree('css', 'build/css', dirs_exist_ok=True)
-        shutil.copytree('images', 'build/images', dirs_exist_ok=True)
+        shutil.copytree('css', 'docs/css', dirs_exist_ok=True)
+        shutil.copytree('images', 'docs/images', dirs_exist_ok=True)
         # Copy other static assets as needed...
 
         subprocess.run(['npx', 'tailwindcss', '-i', 'css/tailwind.css', '-o', 'build/css/tailwind.css'])
 
         print('Website built successfully!')
-        if os.path.exists('build_old'):
-            shutil.rmtree('build_old')
+        if os.path.exists('docs_old'):
+            shutil.rmtree('docs_old')
 
     except Exception as e:
         print('An error occurred while building the website:')
         print(e)
         # If an error occurs, restore the old build folder
-        if os.path.exists('build_old'):
-            shutil.move('build_old', 'build')
+        if os.path.exists('docs_old'):
+            shutil.move('docs_old', 'docs')
 
 if __name__ == '__main__':
     build_website()
