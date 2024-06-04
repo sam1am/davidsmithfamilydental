@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8"/>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="pingback" href="http://davidsmithfamilydental.com/xmlrpc.php"/>
+<title>Services &#8211; David Smith Family Dental</title>
+<meta name='robots' content='max-image-preview:large'/>
+<link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+<link rel="alternate" type="application/rss+xml" title="David Smith Family Dental &raquo; Feed" href="http://davidsmithfamilydental.com/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="David Smith Family Dental &raquo; Comments Feed" href="http://davidsmithfamilydental.com/comments/feed/"/>
+<script type="text/javascript">//<![CDATA[
+window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/davidsmithfamilydental.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.3"}};!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+//]]></script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}</style>
+<link rel='stylesheet' id='wp-block-library-css' href='http://davidsmithfamilydental.com/wp-includes/css/dist/block-library/A.style.min.css,qver=6.5.3.pagespeed.cf.ZwAxpn48kU.css' type='text/css' media='all'/>
+<style id='classic-theme-styles-inline-css' type='text/css'>.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id='global-styles-inline-css' type='text/css'>body{--wp--preset--color--black:#000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#fff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6,147,227,1) 0%,#9b51e0 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,#7adcb4 0%,#00d082 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255,105,0,1) 0%,#cf2e2e 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,#eee 0%,#a9b8c3 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,#4aeadc 0%,#9778d1 20%,#cf2aba 40%,#ee2c82 60%,#fb6962 80%,#fef84c 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,#ffceec 0%,#9896f0 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,#fecda5 0%,#fe2d2d 50%,#6b003e 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,#ffcb70 0%,#c751c0 50%,#4158d0 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,#fff5cb 0%,#b6e3d4 50%,#33a7b5 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,#caf880 0%,#71ce7e 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,#020381 0%,#2874fc 100%);--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:.44rem;--wp--preset--spacing--30:.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0,0,0,.2);--wp--preset--shadow--deep:12px 12px 50px rgba(0,0,0,.4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0,0,0,.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp:6px 6px 0px rgba(0,0,0,1)}:where(.is-layout-flex){gap:.5em}:where(.is-layout-grid){gap:.5em}body .is-layout-flex{display:flex}body .is-layout-flex{flex-wrap:wrap;align-items:center}body .is-layout-flex>*{margin:0}body .is-layout-grid{display:grid}body .is-layout-grid>*{margin:0}:where(.wp-block-columns.is-layout-flex){gap:2em}:where(.wp-block-columns.is-layout-grid){gap:2em}:where(.wp-block-post-template.is-layout-flex){gap:1.25em}:where(.wp-block-post-template.is-layout-grid){gap:1.25em}.has-black-color{color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-color{color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-color{color:var(--wp--preset--color--white)!important}.has-pale-pink-color{color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-color{color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-color{color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-color{color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-color{color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-color{color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-color{color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-color{color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-color{color:var(--wp--preset--color--vivid-purple)!important}.has-black-background-color{background-color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-background-color{background-color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-background-color{background-color:var(--wp--preset--color--white)!important}.has-pale-pink-background-color{background-color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-background-color{background-color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-background-color{background-color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-background-color{background-color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-background-color{background-color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-background-color{background-color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-background-color{background-color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-background-color{background-color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-background-color{background-color:var(--wp--preset--color--vivid-purple)!important}.has-black-border-color{border-color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-border-color{border-color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-border-color{border-color:var(--wp--preset--color--white)!important}.has-pale-pink-border-color{border-color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-border-color{border-color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-border-color{border-color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-border-color{border-color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-border-color{border-color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-border-color{border-color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-border-color{border-color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-border-color{border-color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-border-color{border-color:var(--wp--preset--color--vivid-purple)!important}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background:var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple)!important}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background:var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan)!important}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange)!important}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red)!important}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background:var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray)!important}.has-cool-to-warm-spectrum-gradient-background{background:var(--wp--preset--gradient--cool-to-warm-spectrum)!important}.has-blush-light-purple-gradient-background{background:var(--wp--preset--gradient--blush-light-purple)!important}.has-blush-bordeaux-gradient-background{background:var(--wp--preset--gradient--blush-bordeaux)!important}.has-luminous-dusk-gradient-background{background:var(--wp--preset--gradient--luminous-dusk)!important}.has-pale-ocean-gradient-background{background:var(--wp--preset--gradient--pale-ocean)!important}.has-electric-grass-gradient-background{background:var(--wp--preset--gradient--electric-grass)!important}.has-midnight-gradient-background{background:var(--wp--preset--gradient--midnight)!important}.has-small-font-size{font-size:var(--wp--preset--font-size--small)!important}.has-medium-font-size{font-size:var(--wp--preset--font-size--medium)!important}.has-large-font-size{font-size:var(--wp--preset--font-size--large)!important}.has-x-large-font-size{font-size:var(--wp--preset--font-size--x-large)!important}.wp-block-navigation a:where(:not(.wp-element-button)){color:inherit}:where(.wp-block-post-template.is-layout-flex){gap:1.25em}:where(.wp-block-post-template.is-layout-grid){gap:1.25em}:where(.wp-block-columns.is-layout-flex){gap:2em}:where(.wp-block-columns.is-layout-grid){gap:2em}.wp-block-pullquote{font-size:1.5em;line-height:1.6}</style>
+<style id='contact-form-7-css' media='all'>div.wpcf7{margin:0;padding:0}div.wpcf7 .screen-reader-response{position:absolute;overflow:hidden;clip:rect(1px,1px,1px,1px);height:1px;width:1px;margin:0;padding:0;border:0}div.wpcf7-response-output{margin:2em .5em 1em;padding:.2em 1em;border:2px solid red}div.wpcf7-mail-sent-ok{border:2px solid #398f14}div.wpcf7-mail-sent-ng,div.wpcf7-aborted{border:2px solid red}div.wpcf7-spam-blocked{border:2px solid #ffa500}div.wpcf7-validation-errors,div.wpcf7-acceptance-missing{border:2px solid #f7e700}.wpcf7-form-control-wrap{position:relative}span.wpcf7-not-valid-tip{color:red;font-size:1em;font-weight:normal;display:block}.use-floating-validation-tip span.wpcf7-not-valid-tip{position:absolute;top:20%;left:20%;z-index:100;border:1px solid red;background:#fff;padding:.2em .8em}span.wpcf7-list-item{display:inline-block;margin:0 0 0 1em}span.wpcf7-list-item-label::before,span.wpcf7-list-item-label::after{content:" "}.wpcf7-display-none{display:none}div.wpcf7 .ajax-loader{visibility:hidden;display:inline-block;background-image:url(/wp-content/plugins/contact-form-7/images/ajax-loader.gif.pagespeed.ce.r5YrN3eaRD.gif);width:16px;height:16px;border:none;padding:0;margin:0 0 0 4px;vertical-align:middle}div.wpcf7 .ajax-loader.is-active{visibility:visible}div.wpcf7 div.ajax-error{display:none}div.wpcf7 .placeheld{color:#888}div.wpcf7 .wpcf7-recaptcha iframe{margin-bottom:0}div.wpcf7 input[type="file"]{cursor:pointer}div.wpcf7 input[type="file"]:disabled{cursor:default}div.wpcf7 .wpcf7-submit:disabled{cursor:not-allowed}</style>
+<link rel='stylesheet' id='freesiaempire-style-css' href='http://davidsmithfamilydental.com/wp-content/themes/freesia-empire/A.style.css,qver=6.5.3.pagespeed.cf.Nug1XtzQkY.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='freesiaempire_google_fonts-css' href='//fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C500%2C700&#038;ver=6.5.3' type='text/css' media='all'/>
+<link rel='stylesheet' id='genericons-css' href='http://davidsmithfamilydental.com/wp-content/themes/freesia-empire/genericons/A.genericons.css,qver=3.4.1.pagespeed.cf.2MAV-JZkpg.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='freesiaempire-responsive-css' href='http://davidsmithfamilydental.com/wp-content/themes/freesia-empire/css/A.responsive.css,qver=6.5.3.pagespeed.cf._Jxssh1O8N.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='freesiaempire-animate-css' href='http://davidsmithfamilydental.com/wp-content/themes/freesia-empire/assets/wow/css/A.animate.min.css,qver=6.5.3.pagespeed.cf.3So_WCSyE_.css' type='text/css' media='all'/>
+<script type="text/javascript" src="http://davidsmithfamilydental.com/wp-includes/js/jquery/jquery.min.js,qver=3.7.1.pagespeed.jm.PoWN7KAtLT.js" id="jquery-core-js"></script>
+<script src="http://davidsmithfamilydental.com/wp-includes,_js,_jquery,_jquery-migrate.min.js,qver==3.4.1+wp-content,_themes,_freesia-empire,_js,_freesiaempire-main.js,qver==6.5.3+wp-content,_themes,_freesia-empire,_js,_freesiaempire-sticky-scroll.js,qver==6.5.3.pagespeed.jc.MQ7FCAR9Av.js"></script><script>eval(mod_pagespeed_VBSQFfAYzw);</script>
+<script>eval(mod_pagespeed_FTk3Y89lJ_);</script>
+<script>eval(mod_pagespeed_Qk4jhdx468);</script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="http://davidsmithfamilydental.com/wp-content/themes/freesia-empire/js/html5.js?ver=3.7.3" id="freesiaempire-html5-js"></script>
+<![endif]-->
+<script src="http://davidsmithfamilydental.com/wp-content/themes/freesia-empire/assets/wow/js/wow.min.js,qver==6.5.3+wow-settings.js,qver==6.5.3.pagespeed.jc.2CtxixMOdS.js"></script><script>eval(mod_pagespeed_U6bHlFl_p3);</script>
+<script>eval(mod_pagespeed_PBOIUgCQkC);</script>
+<link rel="https://api.w.org/" href="http://davidsmithfamilydental.com/wp-json/"/><link rel="alternate" type="application/json" href="http://davidsmithfamilydental.com/wp-json/wp/v2/pages/59"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://davidsmithfamilydental.com/xmlrpc.php?rsd"/>
+<meta name="generator" content="WordPress 6.5.3"/>
+<link rel="canonical" href="http://davidsmithfamilydental.com/services/"/>
+<link rel='shortlink' href='http://davidsmithfamilydental.com/?p=59'/>
+<link rel="alternate" type="application/json+oembed" href="http://davidsmithfamilydental.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdavidsmithfamilydental.com%2Fservices%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="http://davidsmithfamilydental.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdavidsmithfamilydental.com%2Fservices%2F&#038;format=xml"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Custom CSS -->
+<style type="text/css" media="screen">#page{max-width:1200px;margin:0 auto}</style>
+<link rel="icon" href="http://davidsmithfamilydental.com/wp-content/uploads/2016/07/xdvdental_logo-150x83.jpg.pagespeed.ic.KYLHFpquSB.jpg" sizes="32x32"/>
+<link rel="icon" href="http://davidsmithfamilydental.com/wp-content/uploads/2016/07/xdvdental_logo.jpg.pagespeed.ic.S1LADkv631.jpg" sizes="192x192"/>
+<link rel="apple-touch-icon" href="http://davidsmithfamilydental.com/wp-content/uploads/2016/07/xdvdental_logo.jpg.pagespeed.ic.S1LADkv631.jpg"/>
+<meta name="msapplication-TileImage" content="http://davidsmithfamilydental.com/wp-content/uploads/2016/07/dvdental_logo.jpg"/>
+</head>
+<body class="page-template-default page page-id-59  blog-large">
+<div id="page" class="hfeed site">
+<!-- Masthead ============================================= -->
+<header id="masthead" class="site-header">
+	<div class="top-header">
+						<div class="container clearfix">		<div id="site-branding"> <a href="http://davidsmithfamilydental.com/" title="David Smith Family Dental" rel="home"> <img src="http://ec2-52-10-122-87.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/07/dvdental_logo_small.jpg" id="site-logo" alt="David Smith Family Dental"></a> </div> <!-- end #site-branding -->
+		<div class="menu-toggle">      
+								<div class="line-one"></div>
+								<div class="line-two"></div>
+								<div class="line-three"></div>
+							</div><div class="header-info clearfix"><!-- Contact Us ============================================= --><div id="freesiaempire_contact_widgets-2" class="info clearfix">		<h3 class="widget-title">David Smith Family Dental</h3> <!-- end .widget-title -->
+				<ul>
+						<li class="address"><a href="" title="5 South 700 East #204" target="_blank">5 South 700 East #204</a></li>
+						<li class="phone-number"><a href="tel:8013557021" title="801-355-7021">801-355-7021</a></li>
+					</ul>
+	</div><!-- end .contact_widget --> </div> <!-- end .header-info -->							<div id="search-toggle" class="header-search"></div>
+							<div id="search-box" class="clearfix">
+								<form class="search-form" action="http://davidsmithfamilydental.com/" method="get">
+		<input type="search" name="s" class="search-field" placeholder="Search ..." autocomplete="off">
+	<button type="submit" class="search-submit"><i class="search-icon"></i></button>
+	</form> <!-- end .search-form -->							</div>  <!-- end #search-box -->
+						</div> <!-- end .container -->
+				</div> <!-- end .top-header -->	<!-- Main Header============================================= -->
+	<div id="sticky_header">
+		<div class="container clearfix">
+			<!-- Main Nav ============================================= -->
+									<nav id="site-navigation" class="main-navigation clearfix">
+				<ul class="menu"><li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-55"><a href="http://davidsmithfamilydental.com">Home</a></li>
+<li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-59 current_page_item menu-item-118"><a href="http://davidsmithfamilydental.com/services/" aria-current="page">Services</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="http://davidsmithfamilydental.com/insurance-providers/">Insurance</a></li>
+<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="http://davidsmithfamilydental.com/staff/">Staff</a></li>
+<li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="http://davidsmithfamilydental.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-255"><a href="https://www.ident.ws/template_include/new_patient_sign_in.do?site=17323&#038;practiceId=26779">New Patient Form</a></li>
+</ul>			</nav> <!-- end #site-navigation -->
+					</div> <!-- end .container -->
+	</div> <!-- end #sticky_header -->
+							<div class="page-header clearfix">
+							<div class="container">
+									<h1 class="page-title">Services</h1> <!-- .page-title -->
+																</div> <!-- .container -->
+						</div> <!-- .page-header -->
+				</header> <!-- end #masthead -->
+<!-- Main Page Start ============================================= -->
+<div id="content">
+<div class="container clearfix">
+
+<div id="primary">
+	<div id="main">
+			<div class="entry-content">
+			<p>&nbsp;</p>
+<p>We provide a full range of services to meet the needs of your entire family.</p>
+<p><span id="more-59"></span></p>
+<p><img fetchpriority="high" decoding="async" class="alignnone wp-image-153 size-full" src="http://ec2-52-10-122-87.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/07/generaldentistry.png" alt="generaldentistry" width="1150" height="358" srcset="http://davidsmithfamilydental.com/wp-content/uploads/2016/07/generaldentistry.png 1150w, http://davidsmithfamilydental.com/wp-content/uploads/2016/07/generaldentistry-300x93.png 300w, http://davidsmithfamilydental.com/wp-content/uploads/2016/07/generaldentistry-768x239.png 768w, http://davidsmithfamilydental.com/wp-content/uploads/2016/07/generaldentistry-1024x319.png 1024w" sizes="(max-width: 1150px) 100vw, 1150px"/></p>
+<p>Family &amp; Pediatric Dentistry</p>
+<p>Cleanings</p>
+<p>Oral Exams</p>
+<p>Bridges</p>
+<p>Digital X-Rays</p>
+<p>Fillings</p>
+<p>Crowns</p>
+<p>Fillings</p>
+<p><img decoding="async" class="alignnone wp-image-154 size-full" src="http://ec2-52-10-122-87.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/07/cosmetic_services.png" alt="cosmetic_services" width="1150" height="358" srcset="http://davidsmithfamilydental.com/wp-content/uploads/2016/07/cosmetic_services.png 1150w, http://davidsmithfamilydental.com/wp-content/uploads/2016/07/cosmetic_services-300x93.png 300w, http://davidsmithfamilydental.com/wp-content/uploads/2016/07/cosmetic_services-768x239.png 768w, http://davidsmithfamilydental.com/wp-content/uploads/2016/07/cosmetic_services-1024x319.png 1024w" sizes="(max-width: 1150px) 100vw, 1150px"/></p>
+<p>Dental Implants</p>
+<p>Veneers</p>
+<p>Teeth Whitening</p>
+<p>Bonding</p>
+<p>Braces</p>
+<p>Cosmetic Fillings</p>
+<div class="mceTemp"></div>
+<p><img decoding="async" class="alignnone wp-image-156 size-full" src="http://ec2-52-10-122-87.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/07/specilaity_dentistry.png" alt="specilaity_dentistry" width="1150" height="358" srcset="http://davidsmithfamilydental.com/wp-content/uploads/2016/07/specilaity_dentistry.png 1150w, http://davidsmithfamilydental.com/wp-content/uploads/2016/07/specilaity_dentistry-300x93.png 300w, http://davidsmithfamilydental.com/wp-content/uploads/2016/07/specilaity_dentistry-768x239.png 768w, http://davidsmithfamilydental.com/wp-content/uploads/2016/07/specilaity_dentistry-1024x319.png 1024w" sizes="(max-width: 1150px) 100vw, 1150px"/></p>
+<p>Dental Implants</p>
+<p>Gum Disease Treatment</p>
+<p>Extractions</p>
+<p>Sealants</p>
+<p>Scaling and Root Planing</p>
+<p>Root Canals</p>
+<p>Dentures or Partials</p>
+<p>Periodontics</p>
+<p>Braces</p>
+<p>Mouth Guards and Bite Guards</p>
+<p>Prosthodontics</p>
+<p>Endodontics</p>
+<p>Oral Surgery</p>
+<p><img loading="lazy" decoding="async" class="size-medium wp-image-158" src="http://ec2-52-10-122-87.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/07/ClearCorrectLogo650-300x64.png" alt="Clear Correct" width="300" height="64" srcset="http://davidsmithfamilydental.com/wp-content/uploads/2016/07/ClearCorrectLogo650-300x64.png 300w, http://davidsmithfamilydental.com/wp-content/uploads/2016/07/ClearCorrectLogo650.png 650w" sizes="(max-width: 300px) 100vw, 300px"/></p>
+<p>&nbsp;</p>
+		</div> <!-- entry-content clearfix-->
+		
+<div id="comments" class="comments-area">
+			</div> <!-- .comments-area -->		</div> <!-- #main -->
+	</div> <!-- #primary -->
+
+<aside id="secondary">
+    <aside id="search-2" class="widget widget_search"><form class="search-form" action="http://davidsmithfamilydental.com/" method="get">
+		<input type="search" name="s" class="search-field" placeholder="Search ..." autocomplete="off">
+	<button type="submit" class="search-submit"><i class="search-icon"></i></button>
+	</form> <!-- end .search-form --></aside>
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h2 class="widget-title">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="http://davidsmithfamilydental.com/2017/04/10/we-want-to-wish-malayna-a-well-deserved-happy-retirement/">We want to wish Malayna a well deserved Happy Retirement!</a>
+									</li>
+											<li>
+					<a href="http://davidsmithfamilydental.com/2016/07/04/new-website/">New Website!</a>
+									</li>
+											<li>
+					<a href="http://davidsmithfamilydental.com/2016/07/04/dennis-and-kathy-webster-taylorsville-utah/">Dennis and Kathy Webster Taylorsville, Utah</a>
+									</li>
+					</ul>
+
+		</aside><aside id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categories</h2>
+			<ul>
+					<li class="cat-item cat-item-3"><a href="http://davidsmithfamilydental.com/category/testimonial/">Testimonial</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://davidsmithfamilydental.com/category/uncategorized/">Uncategorized</a>
+</li>
+			</ul>
+
+			</aside></aside> <!-- #secondary -->
+</div>
+<!-- end .container -->
+</div>
+<!-- end #content -->
+<!-- Footer Start ============================================= -->
+<footer id="colophon" class="site-footer clearfix">
+		<div class="widget-wrap">
+		<div class="container">
+			<div class="widget-area clearfix">
+			<div class="column-4"><aside id="text-2" class="widget widget_text"><h3 class="widget-title">Your Dental Care Professionals</h3>			<div class="textwidget"><p>It is our dental team's mission to improve the overall health of our patients.</p>
+</div>
+		</aside></div><!-- end .column4  --><div class="column-4"><aside id="text-5" class="widget widget_text"><h3 class="widget-title">New Patients</h3>			<div class="textwidget">If you are a new patient, please fill out our <a href="https://www.ident.ws/template_include/new_patient_sign_in.do?site=17323&practiceId=26779" target="_blank" rel="noopener">new patient form</a>.</div>
+		</aside></div><!--end .column4  --><div class="column-4"><aside id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">Site</h3><div class="menu-site-links-container"><ul id="menu-site-links" class="menu"><li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="http://davidsmithfamilydental.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="http://davidsmithfamilydental.com/insurance-providers/">Insurance Providers</a></li>
+<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="http://davidsmithfamilydental.com/credits/">Credits</a></li>
+</ul></div></aside></div><!--end .column4  --><div class="column-4"><!-- Contact Us ============================================= --><aside id="freesiaempire_contact_widgets-3" class="widget widget_contact">		<h3 class="widget-title">David Smith Family Dental</h3> <!-- end .widget-title -->
+				<ul>
+						<li class="address"><a href="" title="5 South 700 East #204" target="_blank">5 South 700 East #204</a></li>
+						<li class="phone-number"><a href="tel:8013557021" title="801-355-7021">801-355-7021</a></li>
+					</ul>
+	</aside><!-- end .contact_widget --></div><!--end .column4-->			</div> <!-- end .widget-area -->
+		</div> <!-- end .container -->
+	</div> <!-- end .widget-wrap -->
+		<div class="site-info">
+		<div class="container">
+						<div class="copyright">&copy; 2024 		<a title="David Smith Family Dental" target="_blank" href="http://davidsmithfamilydental.com/">David Smith Family Dental</a> | 
+						Designed by: <a title="Themefreesia" target="_blank" href="http://themefreesia.com">Theme Freesia</a> | 
+						Powered by: <a title="WordPress" target="_blank" href="http://wordpress.org">WordPress</a>
+					</div>
+				<div style="clear:both;"></div>
+		</div> <!-- end .container -->
+	</div> <!-- end .site-info -->
+	</footer> <!-- end #colophon -->
+</div> <!-- end #page -->
+<script type="text/javascript" id="contact-form-7-js-extra">//<![CDATA[
+var wpcf7={"apiSettings":{"root":"http:\/\/davidsmithfamilydental.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+//]]></script>
+<script src="http://davidsmithfamilydental.com/wp-content/plugins,_contact-form-7,_includes,_js,_scripts.js,qver==5.0.3+themes,_freesia-empire,_js,_jquery.cycle.all.js,qver==3.0.3.pagespeed.jc.72d_LtVmGw.js"></script><script>eval(mod_pagespeed_3B1E4ZG651);</script>
+<script>eval(mod_pagespeed_ZhTKmM77fy);</script>
+<script type="text/javascript" id="freesiaempire_slider-js-extra">//<![CDATA[
+var freesiaempire_slider_value={"transition_effect":"fade","transition_delay":"4000","transition_duration":"1000"};
+//]]></script>
+<script src="http://davidsmithfamilydental.com/wp-content/themes/freesia-empire/js/freesiaempire-slider-setting.js,qver==6.5.3+freesiaempire-quote-slider.js,qver==4.2.2.pagespeed.jc.mDY3l_e1q3.js"></script><script>eval(mod_pagespeed_MsFfgawBbn);</script>
+<script>eval(mod_pagespeed_a_pYqTxEVj);</script>
+</body>
+</html>

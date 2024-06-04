@@ -1,0 +1,277 @@
+Output of tree command:
+```
+|-- .DS_Store
+|-- img
+    |-- general
+        |-- dentist-SBI-300908734.jpg
+        |-- dentist.jpg
+        |-- dentists-teeth-checkup-SBI-300912824.jpg
+        |-- friendly-nurse-with-a-smile-alongside-dentist-and-patient-SBI-304325831.jpg
+        |-- macro-shot-of-shiny-dental-tools-SBI-325536920.jpg
+        |-- smiling-dentist-and-child-pointing-at-the-screen-stomatology-office-SBI-300904480.jpg
+    |-- insurance_logos
+        |-- Cigna_logo.svg_-280x300.png
+        |-- DeltaDental-298x300.png
+        |-- GEHACDPluswithGEHA-300x90.png
+        |-- Guardian-Logo-300x153.gif
+        |-- Logo-HZ-2001-300x128.gif
+        |-- MetLife-insurance-logo-585x216-300x111.jpg
+        |-- PEHP-300x84.jpg
+        |-- Regence-Logo_1-300x56.png
+        |-- blue-cross-blue-shield-logo-vector-300x300.png
+        |-- deseretmutual-300x300.png
+        |-- emi_health.png
+        |-- selecthealth_logo_vertical-300x123.jpg
+        |-- united_concordia_dental.jpeg
+        |-- unitedhealthcare-logo-300x163.png
+    |-- practice
+        |-- dsfd_logo_small.jpeg
+        |-- office.jpg
+    |-- staff
+        |-- brianna_allen_assistant.jpeg
+        |-- dborah-williams.jpeg
+        |-- dr-david-smith.jpeg
+        |-- jeannette_killinger_hygenist.jpeg
+        |-- kallie_baker_office_manager.jpeg
+        |-- keshia_decker_assistant.jpeg
+        |-- teamphoto.jpeg
+    |-- work
+        |-- invisalign_after.png
+        |-- invisalign_before.png
+|-- index.html
+|-- script.js
+|-- styles.css
+
+```
+
+---
+
+./index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>David Smith Family Dental</title>
+</head>
+
+<body>
+    <header class="bg-blue-500">
+        <div class="container mx-auto px-4 py-6 flex items-center justify-between">
+            <div class="text-2xl font-bold text-white">David Smith Family Dental</div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-white hover:text-teal-500">HOME</a></li>
+                    <li><a href="#" class="text-white hover:text-teal-500">SERVICES</a></li>
+                    <li><a href="#" class="text-white hover:text-teal-500">INSURANCE</a></li>
+                    <li><a href="#" class="text-white hover:text-teal-500">TEAM</a></li>
+                    <li><a href="#" class="text-white hover:text-teal-500">CONTACT US</a></li>
+                    <li><a href="#" class="text-white hover:text-teal-500">NEW PATIENT FORM</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container mx-auto px-4 py-2 text-sm flex items-center justify-center">
+            <i class="fas fa-map-marker-alt mr-2 text-teal-500"></i>
+            <span class="text-white">5 South 700 East #204</span>
+            <i class="fas fa-phone ml-4 mr-2 text-teal-500"></i>
+            <span class="text-white">801-355-7021</span>
+        </div>
+    </header>
+
+    <section class="relative">
+        <img src="img/practice/office.jpg" alt="Banner" class="w-full h-96 object-cover">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-teal-500 opacity-70"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center">
+            <h1 class="text-5xl font-bold text-white mb-4">Your Smile is Our Smile</h1>
+            <a href="#" class="bg-teal-500 text-white px-6 py-3 rounded-full hover:bg-teal-600">Book an Appointment</a>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-12 bg-gray-100">
+        <h2 class="text-4xl font-bold mb-4 text-blue-500">Meeting Dental Needs For Your Whole Family</h2>
+        <p class="text-gray-800 text-lg">
+            At the office of Dr. David Smith, DMD, it is our priority to deliver quality care to informed patients
+            of all ages in a comfortable and convenient setting. Our friendly and knowledgeable team understands the
+            importance of oral care and will work together to give you the individualized attention you deserve.
+        </p>
+    </section>
+
+    <section class="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+            <i class="fas fa-heart text-8xl mb-4 text-teal-500"></i>
+            <h3 class="text-2xl font-bold mb-2 text-blue-500">Comfort, Compassion, Convenience</h3>
+            <p class="text-gray-800">At David Smith Family Dental we treat each patient like family.</p>
+            <a href="#" class="text-teal-500 hover:text-teal-600">Read More</a>
+        </div>
+        <div class="text-center">
+            <i class="fas fa-tooth text-8xl mb-4 text-teal-500"></i>
+            <h3 class="text-2xl font-bold mb-2 text-blue-500">Services</h3>
+            <p class="text-gray-800">We provide a full range of services to meet the needs of your entire family.</p>
+            <a href="#" class="text-teal-500 hover:text-teal-600">Read More</a>
+        </div>
+        <div class="text-center">
+            <i class="fas fa-microscope text-8xl mb-4 text-teal-500"></i>
+            <h3 class="text-2xl font-bold mb-2 text-blue-500">Latest and Greatest</h3>
+            <p class="text-gray-800">Dr. Smith is constantly staying up to date with the latest procedures and tech.</p>
+            <a href="#" class="text-teal-500 hover:text-teal-600">Read More</a>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-12 bg-white">
+        <h2 class="text-4xl font-bold mb-4 text-blue-500">Mini Dental Implants</h2>
+        <p class="text-gray-800 text-lg mb-4">
+            Mini dental implants have emerged as an affordable and long-lasting solution for missing teeth. In recent
+            years,
+            this innovative technology has seen significant improvements, making it a viable option for many patients.
+            Our
+            team at David Smith Family Dental is excited to offer this advanced treatment to help you restore your smile
+            with confidence.
+        </p>
+        <a href="#" class="text-teal-500 hover:text-teal-600">Read More</a>
+    </section>
+
+    <section class="container mx-auto px-4 py-12 bg-gray-100">
+        <h2 class="text-4xl font-bold mb-8 text-center text-blue-500">Testimonials</h2>
+        <div class="relative">
+            <div class="testimonial-slider">
+                <div class="testimonial-slide">
+                    <blockquote class="text-center text-2xl italic mb-4 text-teal-500">"I had an amazing experience at
+                        David Smith Family
+                        Dental. The staff was friendly, and Dr. Smith provided excellent care. I highly recommend them!"
+                    </blockquote>
+                    <p class="text-center font-bold">- John Doe</p>
+                </div>
+                <div class="testimonial-slide">
+                    <blockquote class="text-center text-2xl italic mb-4 text-teal-500">"I've been a patient of Dr. Smith
+                        for years, and I
+                        couldn't be happier with the quality of care I receive. The team is always professional and
+                        attentive."</blockquote>
+                    <p class="text-center font-bold">- Jane Smith</p>
+                </div>
+                <!-- Add more testimonial slides as needed -->
+            </div>
+            <button
+                class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600"
+                id="prevBtn">&lt;</button>
+            <button
+                class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600"
+                id="nextBtn">&gt;</button>
+        </div>
+    </section>
+
+    <footer class="bg-blue-500 text-white py-8">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0">
+                <h3 class="text-xl font-bold mb-2">David Smith Family Dental</h3>
+                <p>5 South 700 East #204</p>
+                <p>801-355-7021</p>
+            </div>
+            <div class="mb-4 md:mb-0">
+                <h3 class="text-xl font-bold mb-2">Quick Links</h3>
+                <ul>
+                    <li><a href="#" class="hover:text-teal-500">Home</a></li>
+                    <li><a href="#" class="hover:text-teal-500">Services</a></li>
+                    <li><a href="#" class="hover:text-teal-500">Insurance</a></li>
+                    <li><a href="#" class="hover:text-teal-500">Team</a></li>
+                    <li><a href="#" class="hover:text-teal-500">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold mb-2">Follow Us</h3>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white hover:text-teal-500"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-white hover:text-teal-500"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-white hover:text-teal-500"><i class="fab fa-instagram fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>```
+---
+
+./styles.css
+```
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff;
+    background-image: linear-gradient(45deg, #ffffff 25%, transparent 25%, transparent 75%, #ffffff 75%, #ffffff),
+        linear-gradient(45deg, #ffffff 25%, transparent 25%, transparent 75%, #ffffff 75%, #ffffff);
+    background-size: 5px 5px;
+    background-position: 0 0, 2.5px 2.5px;
+}
+
+header {
+    background-color: #0077C0;
+    background-image: linear-gradient(45deg, #005a8f 25%, transparent 25%, transparent 75%, #005a8f 75%, #005a8f),
+        linear-gradient(45deg, #005a8f 25%, transparent 25%, transparent 75%, #005a8f 75%, #005a8f);
+    background-size: 5px 5px;
+    background-position: 0 0, 2.5px 2.5px;
+}
+
+.testimonial-slide {
+    display: none;
+}
+
+.testimonial-slide:first-child {
+    display: block;
+}```
+---
+
+./script.js
+```
+const slider = document.querySelector('.testimonial-slider');
+const slides = document.querySelectorAll('.testimonial-slide');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+let slideIndex = 0;
+let autoSlideInterval = setInterval(nextSlide, 5000); // Advance slide every 5 seconds
+
+function showSlide(index) {
+    slides.forEach((slide) => {
+        slide.style.display = 'none';
+    });
+    slides[index].style.display = 'block';
+}
+
+function nextSlide() {
+    slideIndex++;
+    if (slideIndex >= slides.length) {
+        slideIndex = 0;
+    }
+    showSlide(slideIndex);
+}
+
+function prevSlide() {
+    slideIndex--;
+    if (slideIndex < 0) {
+        slideIndex = slides.length - 1;
+    }
+    showSlide(slideIndex);
+}
+
+function resetAutoSlide() {
+    clearInterval(autoSlideInterval);
+    autoSlideInterval = setInterval(nextSlide, 5000);
+}
+
+nextBtn.addEventListener('click', () => {
+    nextSlide();
+    resetAutoSlide();
+});
+
+prevBtn.addEventListener('click', () => {
+    prevSlide();
+    resetAutoSlide();
+});
+
+showSlide(slideIndex);```
+---
