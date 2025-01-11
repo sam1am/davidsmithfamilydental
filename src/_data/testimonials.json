@@ -1,0 +1,45 @@
+{
+  "testimonials": [
+    {
+      "name": "Kate Dowden",
+      "text": "Excellent dental practice. Been going for years, Dr. Smith and team helped me work through some pretty big anxiety around dental work and here years later, a trip to the dentist is no big deal. Highly recommended!!",
+      "image": "/assets/images/testimonials/kate_dowden.png"
+    },
+    {
+      "name": "Cara B",
+      "text": "Dr Smith got me in for an emergency repair after I chipped my tooth while on vacation. The final result was as if it never happened. His staff is very friendly and prioritize your comfort. Highly recommend!",
+      "image": "/assets/images/testimonials/cara_b.png"
+    },
+    {
+      "name": "Citali Skorney",
+      "text": "Great practice. My husband has been going there his whole life and now we all go there. They're great with my son who's 5 years old. The staff is very nice and doctor Smith is very nice as well.",
+      "image": "/assets/images/testimonials/citali_skorney.png"
+    },
+    {
+      "name": "Josep Rubió",
+      "text": "Simply the best dentist I have ever been. Besides the good service, they truly care about patient's health.",
+      "image": "/assets/images/testimonials/josep_rubio.png"
+    },
+    {
+      "name": "Nancy Maughan",
+      "text": "Dr. Smith is honest and the best dentist I've ever been to. You can tell he truly cares about his patients and finds the best solution for your dental health. His staff is friendly and knowledgeable as well. They are all great!",
+      "image": "/assets/images/testimonials/nancy_maughan.png"
+    },
+    {
+      "name": "Erin Carson",
+      "text": "Our family loves going to see Dr. Smith! He is kind and gentle. His staff is always nice and courteous. I would highly recommend Dr. Smith if you are looking for a great dentist!",
+      "image": "/assets/images/testimonials/erin-carson.png"
+    },
+    {
+      "name": "Jeannette Killinger",
+      "text": "Dr. Smith is super gentle and does great, reliable work. I have referred friends and family here who have dental anxiety because Dr. Smith and staff do such a great job at calming and distracting patients. After moving to Georgia 3 years ago, we still fly to Salt Lake to get our cleanings and dental work done at Dr. Smith's.",
+      "image": "/assets/images/testimonials/jeannette-killinger.png"
+    },
+    {
+      "name": "Leslie Culver",
+      "text": "I LOVE THIS DENTAL FAMILY! They are so caring, so kind, so great for every member of my family! I truly appreciate the fantastic health care both in the office and out of the office (when we've had dental emergency). Very responsive team too!",
+      "image": "/assets/images/testimonials/leslie-culver.png"
+    }
+  ],
+  "googleReviewLink": "https://maps.app.goo.gl/4UtW7qp9cMcGYt5s9"
+}
