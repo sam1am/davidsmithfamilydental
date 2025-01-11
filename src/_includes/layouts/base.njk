@@ -3,10 +3,28 @@
     {% include "partials/head.njk" %}
     <body class="min-h-screen bg-gray-50">
         {% include "components/nav.njk" %}
-        {% if title == "Professional Dental Cleaning" %}
+        {% if page.url.includes("/articles/") %}
             <div class="max-w-6xl mx-auto px-4 py-8">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden">
-                    <img src="/assets/images/services/cleaning_optimized.jpg" alt="Professional Dental Cleaning" class="w-full h-[400px] object-cover">
+                    {% set articleImage = "/assets/images/services/general_optimized.jpg" %}
+                    {% if title == "Professional Dental Cleaning" %}
+                        {% set articleImage = "/assets/images/services/cleaning_optimized.jpg" %}
+                    {% elif title == "Dental Implants" or title == "Mini Dental Implants" %}
+                        {% set articleImage = "/assets/images/services/implants_optimized.png" %}
+                    {% elif title == "Braces" or title == "Orthodontics" %}
+                        {% set articleImage = "/assets/images/services/braces_optimized.jpg" %}
+                    {% elif title == "Fillings" or title == "Cosmetic Fillings" %}
+                        {% set articleImage = "/assets/images/services/filling_optimized.jpg" %}
+                    {% elif title == "X-Rays" %}
+                        {% set articleImage = "/assets/images/services/xray_optimized.jpg" %}
+                    {% elif title == "Veneers" %}
+                        {% set articleImage = "/assets/images/services/veneers_optimized.jpg" %}
+                    {% elif title == "Teeth Whitening" %}
+                        {% set articleImage = "/assets/images/services/whitening_optimized.jpg" %}
+                    {% elif title == "Family Pediatric Dentistry" %}
+                        {% set articleImage = "/assets/images/services/pediatric_optimized.jpg" %}
+                    {% endif %}
+                    <img src="{{ articleImage }}" alt="{{ title }}" class="w-full h-[400px] object-cover">
                     <article class="prose lg:prose-lg p-8 max-w-none">
                         {{ content | safe }}
                     </article>
