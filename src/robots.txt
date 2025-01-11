@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://davidsmithfamilydental.com/sitemap.xml
+
+# Allow all bots to access everything
+# Block access to admin or private areas if needed in the future
