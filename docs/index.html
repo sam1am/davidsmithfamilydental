@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#007bff',
+                    },
+                    typography: {
+                        DEFAULT: {
+                            css: {
+                                'h1, h2, h3, h4': {
+                                    color: '#1a202c',
+                                },
+                                ul: {
+                                    'list-style-type': 'disc',
+                                },
+                                li: {
+                                    '&::marker': {
+                                        color: '#007bff',
+                                    },
+                                },
+                                a: {
+                                    color: '#007bff',
+                                    '&:hover': {
+                                        color: '#0056b3',
+                                    },
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+
+    <body class="min-h-screen bg-gray-50 flex flex-col">
+        <nav class="bg-white shadow-lg fixed w-full z-10">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center space-x-8">
+                <a href="/"><img src="/assets/images/logo.png" alt="Logo" class="h-8"></a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/" class="text-gray-600 hover:text-gray-900">Home</a>
+                    <a href="/services" class="text-gray-600 hover:text-gray-900">Services</a>
+                    <a href="/insurance" class="text-gray-600 hover:text-gray-900">Insurance</a>
+                    <a href="/staff" class="text-gray-600 hover:text-gray-900">Staff</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-900">Contact Us</a>
+                </div>
+            </div>
+            <a href="https://www.ident.ws/template_include/new_patient_sign_in.do?site=17323&practiceId=26779" target="_blank" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+                New Patient Form
+            </a>
+        </div>
+    </div>
+</nav>
+
+        <main class="flex-grow">
+        
+            
+<div class="relative h-[600px]">
+    <div class="absolute inset-0">
+        <img class="w-full h-full object-cover" src="/assets/images/office_exterior.jpg" alt="Background">
+        <div class="absolute inset-0 bg-gray-900 opacity-60"></div>
+    </div>
+    <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+        <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Complete Family Dental Care with a Gentle Touch
+        </h1>
+        <p class="mt-6 text-xl text-gray-300 max-w-3xl">
+            Where SLC families find modern, anxiety-free dentistry.
+        </p>
+        <div class="mt-10">
+            <button class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">
+                Book Appointment
+            </button>
+        </div>
+    </div>
+</div>
+
+<style>
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.testimonial-scroll:hover {
+    animation-play-state: paused;
+}
+
+.fade-edge {
+    background: linear-gradient(to right, 
+        rgba(255,255,255,1) 0%,
+        rgba(255,255,255,0) 10%,
+        rgba(255,255,255,0) 90%,
+        rgba(255,255,255,1) 100%
+    );
+}
+</style>
+
+<div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <div class="border border-gray-200 rounded-lg p-8 bg-white shadow-sm">
+        <h2 class="text-3xl font-bold text-center mb-12">What Our Patients Say</h2>
+        
+        <div class="relative overflow-hidden mb-12">
+            <div class="fade-edge absolute inset-0 z-10 pointer-events-none"></div>
+            <div class="flex testimonial-scroll" style="animation: scroll 120s linear infinite; width: fit-content;">
+                <!-- Original testimonials -->
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/kate_dowden.png" alt="Kate Dowden">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Excellent dental practice. Been going for years, Dr. Smith and team helped me work through some pretty big anxiety around dental work and here years later, a trip to the dentist is no big deal. Highly recommended!!"</p>
+                        <p class="font-semibold text-gray-800">- Kate Dowden</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/cara_b.png" alt="Cara B">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Dr Smith got me in for an emergency repair after I chipped my tooth while on vacation. The final result was as if it never happened. His staff is very friendly and prioritize your comfort. Highly recommend!"</p>
+                        <p class="font-semibold text-gray-800">- Cara B</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/citali_skorney.png" alt="Citali Skorney">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Great practice. My husband has been going there his whole life and now we all go there. They&#39;re great with my son who&#39;s 5 years old. The staff is very nice and doctor Smith is very nice as well."</p>
+                        <p class="font-semibold text-gray-800">- Citali Skorney</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/josep_rubio.png" alt="Josep Rubió">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Simply the best dentist I have ever been. Besides the good service, they truly care about patient&#39;s health."</p>
+                        <p class="font-semibold text-gray-800">- Josep Rubió</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/nancy_maughan.png" alt="Nancy Maughan">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Dr. Smith is honest and the best dentist I&#39;ve ever been to. You can tell he truly cares about his patients and finds the best solution for your dental health. His staff is friendly and knowledgeable as well. They are all great!"</p>
+                        <p class="font-semibold text-gray-800">- Nancy Maughan</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/erin-carson.png" alt="Erin Carson">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Our family loves going to see Dr. Smith! He is kind and gentle. His staff is always nice and courteous. I would highly recommend Dr. Smith if you are looking for a great dentist!"</p>
+                        <p class="font-semibold text-gray-800">- Erin Carson</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/jeannette-killinger.png" alt="Jeannette Killinger">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Dr. Smith is super gentle and does great, reliable work. I have referred friends and family here who have dental anxiety because Dr. Smith and staff do such a great job at calming and distracting patients. After moving to Georgia 3 years ago, we still fly to Salt Lake to get our cleanings and dental work done at Dr. Smith&#39;s."</p>
+                        <p class="font-semibold text-gray-800">- Jeannette Killinger</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/leslie-culver.png" alt="Leslie Culver">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"I LOVE THIS DENTAL FAMILY! They are so caring, so kind, so great for every member of my family! I truly appreciate the fantastic health care both in the office and out of the office (when we&#39;ve had dental emergency). Very responsive team too!"</p>
+                        <p class="font-semibold text-gray-800">- Leslie Culver</p>
+                    </div>
+                </div>
+                
+                <!-- Duplicate testimonials for seamless loop -->
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/kate_dowden.png" alt="Kate Dowden">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Excellent dental practice. Been going for years, Dr. Smith and team helped me work through some pretty big anxiety around dental work and here years later, a trip to the dentist is no big deal. Highly recommended!!"</p>
+                        <p class="font-semibold text-gray-800">- Kate Dowden</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/cara_b.png" alt="Cara B">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Dr Smith got me in for an emergency repair after I chipped my tooth while on vacation. The final result was as if it never happened. His staff is very friendly and prioritize your comfort. Highly recommend!"</p>
+                        <p class="font-semibold text-gray-800">- Cara B</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/citali_skorney.png" alt="Citali Skorney">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Great practice. My husband has been going there his whole life and now we all go there. They&#39;re great with my son who&#39;s 5 years old. The staff is very nice and doctor Smith is very nice as well."</p>
+                        <p class="font-semibold text-gray-800">- Citali Skorney</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/josep_rubio.png" alt="Josep Rubió">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Simply the best dentist I have ever been. Besides the good service, they truly care about patient&#39;s health."</p>
+                        <p class="font-semibold text-gray-800">- Josep Rubió</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/nancy_maughan.png" alt="Nancy Maughan">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Dr. Smith is honest and the best dentist I&#39;ve ever been to. You can tell he truly cares about his patients and finds the best solution for your dental health. His staff is friendly and knowledgeable as well. They are all great!"</p>
+                        <p class="font-semibold text-gray-800">- Nancy Maughan</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/erin-carson.png" alt="Erin Carson">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Our family loves going to see Dr. Smith! He is kind and gentle. His staff is always nice and courteous. I would highly recommend Dr. Smith if you are looking for a great dentist!"</p>
+                        <p class="font-semibold text-gray-800">- Erin Carson</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/jeannette-killinger.png" alt="Jeannette Killinger">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"Dr. Smith is super gentle and does great, reliable work. I have referred friends and family here who have dental anxiety because Dr. Smith and staff do such a great job at calming and distracting patients. After moving to Georgia 3 years ago, we still fly to Salt Lake to get our cleanings and dental work done at Dr. Smith&#39;s."</p>
+                        <p class="font-semibold text-gray-800">- Jeannette Killinger</p>
+                    </div>
+                </div>
+                
+                <div class="flex-none w-[300px] mx-8">
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg h-full">
+                        <img class="w-16 h-16 rounded-full object-cover mb-4" src="/assets/images/testimonials/leslie-culver.png" alt="Leslie Culver">
+                        <div class="flex mb-4">
+                            <span class="text-yellow-400">⭐️⭐️⭐️⭐️⭐️</span>
+                        </div>
+                        <p class="text-gray-600 text-center mb-4">"I LOVE THIS DENTAL FAMILY! They are so caring, so kind, so great for every member of my family! I truly appreciate the fantastic health care both in the office and out of the office (when we&#39;ve had dental emergency). Very responsive team too!"</p>
+                        <p class="font-semibold text-gray-800">- Leslie Culver</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="text-center">
+            <a href="https://maps.app.goo.gl/4UtW7qp9cMcGYt5s9" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-blue-600 hover:text-blue-800">
+                <span class="text-yellow-400 mr-2">⭐️⭐️⭐️⭐️⭐️</span>
+                <span class="underline">Hundreds of 5-star reviews on Google. Read them here.</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-center">
+        <img class="w-full max-w-4xl rounded-lg shadow-lg" src="/assets/images/team/dsf_team.jpg" alt="David Smith Family Dental Team">
+    </div>
+</div>
+
+<div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <div class="border border-gray-200 rounded-lg p-8 bg-white shadow-sm">
+        <h2 class="text-3xl font-bold text-center mb-12">Insurance Plans We Accept</h2>
+        <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image1.png" alt="United Healthcare logo">
+                <p class="text-sm text-gray-700 text-center">United Healthcare</p>
+            </div>
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image2.png" alt="United Concordia Dental logo">
+                <p class="text-sm text-gray-700 text-center">United Concordia Dental</p>
+            </div>
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image3.png" alt="Select Health logo">
+                <p class="text-sm text-gray-700 text-center">Select Health</p>
+            </div>
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image4.png" alt="EMI Health logo">
+                <p class="text-sm text-gray-700 text-center">EMI Health</p>
+            </div>
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image5.png" alt="Deseret Mutual logo">
+                <p class="text-sm text-gray-700 text-center">Deseret Mutual</p>
+            </div>
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image6.png" alt="Regence logo">
+                <p class="text-sm text-gray-700 text-center">Regence</p>
+            </div>
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image7.png" alt="Cigna logo">
+                <p class="text-sm text-gray-700 text-center">Cigna</p>
+            </div>
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image8.png" alt="GEHA logo">
+                <p class="text-sm text-gray-700 text-center">GEHA</p>
+            </div>
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image9.png" alt="MetLife logo">
+                <p class="text-sm text-gray-700 text-center">MetLife</p>
+            </div>
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image10.png" alt="PEHP logo">
+                <p class="text-sm text-gray-700 text-center">PEHP</p>
+            </div>
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image11.png" alt="Guardian logo">
+                <p class="text-sm text-gray-700 text-center">Guardian</p>
+            </div>
+            <div class="col-span-1 flex flex-col items-center">
+                <img class="h-12 mb-3" src="/assets/images/insurance/image12.png" alt="Blue Cross Blue Shield logo">
+                <p class="text-sm text-gray-700 text-center">Blue Cross Blue Shield</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-gray-50 relative">
+    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 mb-0">
+    <div class="text-center mb-12">
+        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Our Services</h2>
+        <p class="mt-4 text-lg text-gray-500">Comprehensive dental care for your entire family</p>
+    </div>
+
+    
+    
+    
+    <div class="mb-16 last:mb-0">
+        <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">General Dentistry</h3>
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/general-dentistry" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/general_optimized.jpg" alt="General Dentistry">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">General Dentistry</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Comprehensive dental care including checkups, cleanings, and preventive treatments.</p>
+                    
+                    <a href="/articles/general-dentistry" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/family-pediatric-dentistry" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/pediatric_optimized.jpg" alt="Family &amp; Pediatric Dentistry">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Family &amp; Pediatric Dentistry</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Dental care for the whole family, with special attention to children&#39;s dental needs.</p>
+                    
+                    <a href="/articles/family-pediatric-dentistry" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/professional-cleaning" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/cleaning_optimized.jpg" alt="Professional Cleaning">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Professional Cleaning</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Deep cleaning and polishing to maintain optimal oral health and prevent disease.</p>
+                    
+                    <a href="/articles/professional-cleaning" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/oral-exams" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/dental_exam.png" alt="Oral Exams">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Oral Exams</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Comprehensive dental examinations to assess your oral health.</p>
+                    
+                    <a href="/articles/oral-exams" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/x-rays" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/xray_optimized.jpg" alt="Digital X-Rays">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Digital X-Rays</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Digital x-rays for accurate diagnosis and treatment planning.</p>
+                    
+                    <a href="/articles/x-rays" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/fillings" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/filling_optimized.jpg" alt="Fillings">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Fillings</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Tooth-colored fillings to restore damaged teeth.</p>
+                    
+                    <a href="/articles/fillings" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/crowns" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/dental_crown.jpg" alt="Crowns">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Crowns</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Custom-made caps to protect and restore damaged teeth.</p>
+                    
+                    <a href="/articles/crowns" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/bridges" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/dental_bridge.png" alt="Bridges">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Bridges</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Fixed dental prosthetics to replace missing teeth.</p>
+                    
+                    <a href="/articles/bridges" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+    
+    <div class="mb-16 last:mb-0">
+        <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">Cosmetic Services</h3>
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/teeth-whitening" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/whitening_optimized.jpg" alt="Teeth Whitening">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Teeth Whitening</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Professional whitening treatments for a brighter, more confident smile.</p>
+                    
+                    <a href="/articles/teeth-whitening" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/veneers" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/veneers_optimized.jpg" alt="Veneers">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Veneers</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Custom-made porcelain veneers to enhance your smile&#39;s appearance.</p>
+                    
+                    <a href="/articles/veneers" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/bonding" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/general_optimized.jpg" alt="Bonding">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Bonding</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Tooth-colored materials to repair and enhance your smile.</p>
+                    
+                    <a href="/articles/bonding" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/cosmetic-fillings" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/filling_optimized.jpg" alt="Cosmetic Fillings">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Cosmetic Fillings</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Natural-looking fillings that blend with your teeth.</p>
+                    
+                    <a href="/articles/cosmetic-fillings" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+    
+    <div class="mb-16 last:mb-0">
+        <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">Specialty Dentistry</h3>
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/dental-implants" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/implants_optimized.png" alt="Dental Implants">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Dental Implants</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Permanent tooth replacement solutions for a natural look and feel.</p>
+                    
+                    <a href="/articles/dental-implants" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/mini-dental-implants" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/implants_optimized.png" alt="Mini Dental Implants">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Mini Dental Implants</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Smaller, less invasive implants ideal for securing dentures or replacing smaller teeth.</p>
+                    
+                    <a href="/articles/mini-dental-implants" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/gum-disease-treatment" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/gum_disease.png" alt="Gum Disease Treatment">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Gum Disease Treatment</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Comprehensive treatment for periodontal disease.</p>
+                    
+                    <a href="/articles/gum-disease-treatment" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/extractions" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/extraction.png" alt="Extractions">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Extractions</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Safe and comfortable tooth removal procedures.</p>
+                    
+                    <a href="/articles/extractions" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/sealants" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/sealant.jpg" alt="Sealants">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Sealants</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Protective coating to prevent tooth decay.</p>
+                    
+                    <a href="/articles/sealants" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/scaling-root-planing" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/general_optimized.jpg" alt="Scaling and Root Planing">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Scaling and Root Planing</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Deep cleaning treatment for gum disease.</p>
+                    
+                    <a href="/articles/scaling-root-planing" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/root-canals" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/root-canal.png" alt="Root Canals">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Root Canals</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Treatment to save severely damaged or infected teeth.</p>
+                    
+                    <a href="/articles/root-canals" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/dentures-partials" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/dentures.jpg" alt="Dentures or Partials">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Dentures or Partials</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Removable replacements for missing teeth.</p>
+                    
+                    <a href="/articles/dentures-partials" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/periodontics" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/general_optimized.jpg" alt="Periodontics">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Periodontics</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Specialized treatment for gum diseases and conditions.</p>
+                    
+                    <a href="/articles/periodontics" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/braces" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/braces_optimized.jpg" alt="Braces">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Braces</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Traditional and modern orthodontic solutions.</p>
+                    
+                    <a href="/articles/braces" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/mouth-bite-guards" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/mouth_guard.png" alt="Mouth Guards and Bite Guards">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Mouth Guards and Bite Guards</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Custom-fitted guards for protection and comfort.</p>
+                    
+                    <a href="/articles/mouth-bite-guards" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/prosthodontics" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/general_optimized.jpg" alt="Prosthodontics">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Prosthodontics</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Specialized dental prosthetics and reconstructions.</p>
+                    
+                    <a href="/articles/prosthodontics" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/endodontics" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/general_optimized.jpg" alt="Endodontics">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Endodontics</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Specialized treatment of dental pulp and roots.</p>
+                    
+                    <a href="/articles/endodontics" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                
+                <a href="/articles/oral-surgery" class="block">
+                    <div class="relative h-48">
+                        <img class="w-full h-full object-cover" src="/assets/images/services/general_optimized.jpg" alt="Oral Surgery">
+                    </div>
+                    <div class="p-6 pb-0">
+                        <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600">Oral Surgery</h3>
+                    </div>
+                </a>
+                
+                <div class="p-6 pt-2">
+                    <p class="mt-2 text-gray-600">Surgical procedures for complex dental issues.</p>
+                    
+                    <a href="/articles/oral-surgery" class="inline-block mt-4 text-blue-600 hover:text-blue-800">Learn More →</a>
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    </div>
+</div>
+
+
+        
+        </main>
+        <footer id="contact" class="relative z-10 bg-gray-900 text-white mt-16">
+    <div class="max-w-6xl mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Contact & Map Section -->
+            <div class="space-y-4">
+                <h3 class="text-xl font-semibold mb-4">Visit Us</h3>
+                <p class="text-gray-300"><a href="https://www.google.com/maps/place/David+O.+Smith+DMD+Family+Dentistry/@40.7690652,-111.8732042,16z/data=!3m2!4b1!5s0x8752f5705f494851:0x27c34e5ae14f2948!4m6!3m5!1s0x8752f5705c587b8b:0x3bd355697a21cfb5!8m2!3d40.7690612!4d-111.8706293!16s%2Fg%2F1thbx41j?entry=ttu" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400">5 S 700 E #204<br>Salt Lake City, UT 84102</a></p>
+                <p class="text-gray-300">Phone: <a href="tel:+18013557021" class="hover:text-blue-400">+1 (801) 355-7021</a></p>
+                <div class="mt-4 h-48 w-full">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8898839511797!2d-111.87290372342055!3d40.76769657138451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f504491b0f7d%3A0x4e9f92e0d5d50dd7!2s5%20S%20700%20E%20%23204%2C%20Salt%20Lake%20City%2C%20UT%2084102!5e0!3m2!1sen!2sus!4v1704858097044!5m2!1sen!2sus"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="rounded-lg"
+                    ></iframe>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                <ul class="space-y-2 text-gray-300">
+                    <li><a href="/" class="hover:text-blue-400">Home</a></li>
+                    <li><a href="/services" class="hover:text-blue-400">Services</a></li>
+                    <li><a href="#acknowledgements" class="hover:text-blue-400">Acknowledgements</a></li>
+                    <li><a href="#privacy-policy" class="hover:text-blue-400">Privacy Policy</a></li>
+                    <li><a href="#terms-of-service" class="hover:text-blue-400">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <!-- Hours & Logo -->
+            <div class="space-y-4">
+                <img src="/assets/images/logo-footer.png" alt="David Smith Family Dental Logo" class="h-16">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Hours</h3>
+                    <ul class="text-gray-300 space-y-1">
+                        <li>Monday: 8 AM - 5 PM</li>
+                        <li>Tuesday: 7 AM - 4 PM</li>
+                        <li>Wednesday: 8 AM - 5 PM</li>
+                        <li>Thursday: 7 AM - 2 PM</li>
+                        <li>Friday: Closed</li>
+                        <li>Saturday: Closed</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+            <p>&copy; 2024 David Smith Family Dental. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    </body>
+</html>
