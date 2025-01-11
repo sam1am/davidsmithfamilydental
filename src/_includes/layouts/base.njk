@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     {% include "partials/head.njk" %}
-    <body class="min-h-screen bg-gray-50">
+    <body class="min-h-screen bg-gray-50 flex flex-col">
         {% include "components/nav.njk" %}
+        <main class="flex-grow">
         {% if page.url.includes("/articles/") %}
             <div class="max-w-6xl mx-auto px-4 py-8">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden">
@@ -33,5 +34,7 @@
         {% else %}
             {{ content | safe }}
         {% endif %}
+        </main>
+        {% include "components/footer.njk" %}
     </body>
 </html>
