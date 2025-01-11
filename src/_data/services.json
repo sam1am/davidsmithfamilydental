@@ -24,7 +24,7 @@
     {
       "name": "Oral Exams",
       "description": "Comprehensive dental examinations to assess your oral health.",
-      "image": "/assets/images/services/general_optimized.jpg",
+      "image": "/assets/images/services/dental_exam.png",
       "section": "General Dentistry",
       "article": "/articles/oral-exams"
     },
@@ -45,14 +45,14 @@
     {
       "name": "Crowns",
       "description": "Custom-made caps to protect and restore damaged teeth.",
-      "image": "/assets/images/services/general_optimized.jpg",
+      "image": "/assets/images/services/dental_crown.jpg",
       "section": "General Dentistry",
       "article": "/articles/crowns"
     },
     {
       "name": "Bridges",
       "description": "Fixed dental prosthetics to replace missing teeth.",
-      "image": "/assets/images/services/general_optimized.jpg",
+      "image": "/assets/images/services/dental_bridge.png",
       "section": "General Dentistry",
       "article": "/articles/bridges"
     },
@@ -101,21 +101,21 @@
     {
       "name": "Gum Disease Treatment",
       "description": "Comprehensive treatment for periodontal disease.",
-      "image": "/assets/images/services/general_optimized.jpg",
+      "image": "/assets/images/services/gum_disease.png",
       "section": "Specialty Dentistry",
       "article": "/articles/gum-disease-treatment"
     },
     {
       "name": "Extractions",
       "description": "Safe and comfortable tooth removal procedures.",
-      "image": "/assets/images/services/general_optimized.jpg",
+      "image": "/assets/images/services/extraction.png",
       "section": "Specialty Dentistry",
       "article": "/articles/extractions"
     },
     {
       "name": "Sealants",
       "description": "Protective coating to prevent tooth decay.",
-      "image": "/assets/images/services/general_optimized.jpg",
+      "image": "/assets/images/services/sealant.jpg",
       "section": "Specialty Dentistry",
       "article": "/articles/sealants"
     },
@@ -129,14 +129,14 @@
     {
       "name": "Root Canals",
       "description": "Treatment to save severely damaged or infected teeth.",
-      "image": "/assets/images/services/general_optimized.jpg",
+      "image": "/assets/images/services/root-canal.png",
       "section": "Specialty Dentistry",
       "article": "/articles/root-canals"
     },
     {
       "name": "Dentures or Partials",
       "description": "Removable replacements for missing teeth.",
-      "image": "/assets/images/services/general_optimized.jpg",
+      "image": "/assets/images/services/dentures.jpg",
       "section": "Specialty Dentistry",
       "article": "/articles/dentures-partials"
     },
@@ -157,7 +157,7 @@
     {
       "name": "Mouth Guards and Bite Guards",
       "description": "Custom-fitted guards for protection and comfort.",
-      "image": "/assets/images/services/general_optimized.jpg",
+      "image": "/assets/images/services/mouth_guard.png",
       "section": "Specialty Dentistry",
       "article": "/articles/mouth-bite-guards"
     },
