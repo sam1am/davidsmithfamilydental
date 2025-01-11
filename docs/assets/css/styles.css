@@ -1316,18 +1316,6 @@ h1, h2, h3, h4 {
   max-width: none;
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
 .pointer-events-none {
   pointer-events: none;
 }
@@ -1366,6 +1354,10 @@ h1, h2, h3, h4 {
 
 .col-span-1 {
   grid-column: span 1 / span 1;
+}
+
+.-m-px {
+  margin: -1px;
 }
 
 .mx-8 {
@@ -1506,6 +1498,10 @@ h1, h2, h3, h4 {
   height: 100%;
 }
 
+.h-px {
+  height: 1px;
+}
+
 .min-h-\[2\.75rem\] {
   min-height: 2.75rem;
 }
@@ -1532,6 +1528,10 @@ h1, h2, h3, h4 {
 
 .w-full {
   width: 100%;
+}
+
+.w-px {
+  width: 1px;
 }
 
 .max-w-3xl {
@@ -1644,6 +1644,10 @@ h1, h2, h3, h4 {
   overflow: hidden;
 }
 
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -1662,6 +1666,10 @@ h1, h2, h3, h4 {
 
 .border {
   border-width: 1px;
+}
+
+.border-0 {
+  border-width: 0px;
 }
 
 .border-t {
@@ -1711,6 +1719,10 @@ h1, h2, h3, h4 {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .p-2 {
@@ -1792,8 +1804,8 @@ h1, h2, h3, h4 {
   padding-bottom: 4rem;
 }
 
-.pb-3 {
-  padding-bottom: 0.75rem;
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .pt-2 {
