@@ -2,77 +2,56 @@
 title: Professional Dental Cleaning
 layout: layouts/base.njk
 ---
+# Professional Dental Cleanings: The Foundation of Oral Health
 
-# Professional Dental Cleaning
+At David Smith Family Dental in Salt Lake City, we emphasize the importance of regular professional cleanings as the cornerstone of preventive dental care.
 
-Professional dental cleaning is a crucial part of maintaining good oral health. At David Smith Family Dental, our experienced hygienists provide thorough cleanings that go beyond what you can achieve at home.
+## What Professional Cleaning Includes
 
-## What Does Professional Cleaning Include?
+### Basic Cleaning
+* Removal of plaque and tartar
+* Professional flossing
+* Polishing
+* Fluoride treatment
+* Oral hygiene instruction
 
-### 1. Physical Exam
-- Visual check of your entire mouth
-- Gum disease screening
-- Oral cancer screening
-- X-rays if needed
+### Deep Cleaning
+* Scaling below gumline
+* Root planing
+* Antibiotic application
+* Gum assessment
 
-### 2. Removing Plaque and Tartar
-- Using specialized tools to remove buildup
-- Focusing on hard-to-reach areas
-- Eliminating bacteria-harboring deposits
+## Benefits of Regular Cleanings
 
-### 3. Expert Polishing
-- Removing surface stains
-- Smoothing tooth surfaces
-- Making it harder for plaque to accumulate
+* Prevent cavities and gum disease
+* Remove stains
+* Fresh breath
+* Early detection of problems
+* Maintain overall health
+* Save money long-term
 
-### 4. Professional Flossing
-- Deep cleaning between teeth
-- Removing hidden debris
-- Checking gum health
+## Frequency of Cleanings
 
-### 5. Fluoride Treatment
-- Strengthening tooth enamel
-- Preventing cavities
-- Long-lasting protection
+* Generally recommended every 6 months
+* More frequent for high-risk patients
+* Based on individual needs
+* Coordinated with check-ups
 
-## Benefits of Regular Professional Cleaning
+## What to Expect
 
-1. **Prevents Tooth Decay and Cavities**
-   - Removes harmful plaque and tartar
-   - Protects tooth enamel
-   - Reduces risk of cavities
+1. Medical history review
+2. Examination
+3. Cleaning procedure
+4. Polishing
+5. Fluoride treatment
+6. Home care instructions
 
-2. **Maintains Gum Health**
-   - Prevents gingivitis
-   - Reduces risk of periodontal disease
-   - Keeps gums pink and healthy
+## Between Visits
 
-3. **Fresh Breath**
-   - Eliminates bacteria causing bad breath
-   - Removes staining foods and beverages
-   - Leaves mouth feeling fresh
+* Brush twice daily
+* Floss daily
+* Use recommended products
+* Maintain healthy diet
+* Address concerns promptly
 
-4. **Early Problem Detection**
-   - Regular screenings catch issues early
-   - Prevents more serious dental problems
-   - Saves time and money long-term
-
-## How Often Should You Get Professional Cleaning?
-
-Most patients benefit from professional cleaning every six months. However, some patients may need more frequent cleanings based on:
-- Oral hygiene habits
-- Genetic predisposition to cavities
-- Existing gum disease
-- Medical conditions affecting oral health
-
-## Preparing for Your Cleaning
-
-1. Maintain regular brushing and flossing
-2. Don't skip your appointment
-3. Arrive a few minutes early
-4. Inform us of any dental concerns
-5. Update us on medical changes
-
-## Schedule Your Cleaning Today
-
-Regular professional cleanings are essential for maintaining optimal oral health. Contact David Smith Family Dental to schedule your next cleaning appointment. Our gentle, thorough approach ensures a comfortable experience and lasting results.
+Schedule your professional cleaning at our Salt Lake City office to maintain your optimal oral health.
