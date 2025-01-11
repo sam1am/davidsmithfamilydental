@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css:build": "tailwindcss -i src/assets/css/styles.css -o docs/assets/css/styles.css --minify",
-    "css:watch": "tailwindcss -i src/assets/css/styles.css -o docs/assets/css/styles.css --watch",
+    "css:build": "postcss src/assets/css/tailwind.css -o docs/assets/css/styles.css --env production",
+    "css:watch": "tailwindcss -i src/assets/css/tailwind.css -o docs/assets/css/styles.css --watch",
     "start": "concurrently \"npm run css:watch\" \"eleventy --serve\"",
     "build": "NODE_ENV=production npm run css:build && eleventy"
   },
