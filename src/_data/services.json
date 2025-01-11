@@ -181,6 +181,13 @@
       "image": "/assets/images/services/general_3.jpg",
       "section": "Specialty Dentistry",
       "article": "/articles/oral-surgery"
+    },
+    {
+      "name": "ClearCorrect Clear Aligners",
+      "description": "Invisible aligners that gradually straighten your teeth without metal braces.",
+      "image": "/assets/images/services/braces_optimized.jpg",
+      "section": "Specialty Dentistry",
+      "article": "/articles/clear-correct"
     }
   ]
 }
