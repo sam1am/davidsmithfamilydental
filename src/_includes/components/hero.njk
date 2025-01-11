@@ -1,0 +1,19 @@
+<div class="relative h-[600px]">
+    <div class="absolute inset-0">
+        <img class="w-full h-full object-cover" src="{{ hero.backgroundImage }}" alt="Background">
+        <div class="absolute inset-0 bg-gray-900 opacity-60"></div>
+    </div>
+    <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+        <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            {{ hero.title }}
+        </h1>
+        <p class="mt-6 text-xl text-gray-300 max-w-3xl">
+            {{ hero.subtitle }}
+        </p>
+        <div class="mt-10">
+            <button class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">
+                {{ hero.ctaText }}
+            </button>
+        </div>
+    </div>
+</div>

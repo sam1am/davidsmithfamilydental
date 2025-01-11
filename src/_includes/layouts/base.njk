@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "partials/head.njk" %}
+    <body class="min-h-screen bg-gray-50">
+        {% include "components/nav.njk" %}
+        {% if title == "Professional Dental Cleaning" %}
+            <div class="max-w-6xl mx-auto px-4 py-8">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <img src="/assets/images/services/cleaning_optimized.jpg" alt="Professional Dental Cleaning" class="w-full h-[400px] object-cover">
+                    <article class="prose lg:prose-lg p-8 max-w-none">
+                        {{ content | safe }}
+                    </article>
+                </div>
+            </div>
+        {% else %}
+            {{ content | safe }}
+        {% endif %}
+    </body>
+</html>
